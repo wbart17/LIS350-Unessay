@@ -1,78 +1,214 @@
+/* Colors
+silver: #d7cdcc;
+white: #ffffff;
+grey: #59656f;
+purple: #9c528b;
+dark_blue-grey: #1d1e2c;
+*/
+
+/* The Box Model Fix*/
+/* ------------------------------- */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
-background-color: #D9D0BF;
+    margin: 0;
+    background-color: #1d1e2c;
 }
 
-#pageWrapper {
-position: relative;
-min-height: 100vh;
+/* Generic Font for Website */
+/* ------------------------------- */
+@font-face {
+    font-family: CutiveMono;
+    src: url(fonts/CutiveMono-Regular.ttf);
+}
+
+/* Navigation Bar */
+/* ------------------------------- */
+.navbar {
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 18px 50px;
+    margin-right: 15px;
+    border-radius: 10px;
+    color: #1d1e2c;
+    background-color: #d7cdcc;
+    font-family: CutiveMono;
+    font-weight: bold;
+}
+
+/* Home Page Description */
+/* ------------------------------- */
+.home_description {
+    margin-top: 100px;
+    padding:20px 320px 20px;
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+}
+
+.home_desc_text {
+    margin:0;
+    position: sticky;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+    padding-right: 100px;
+}
+
+.home_desc_text h1 {
+    text-align: center; 
+    color: #ffffff;
+    font-size: 40px;
+    font-family: CutiveMono;
+}
+
+.home_desc_text h2 {
+    line-height: 200%;
     text-align: center;
-    max-width: 75%;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: CutiveMono;
+    font-weight: lighter;
 }
 
-header {
-font-size: 1.25em;
-font-family: 'IBM Plex Sans', sans-serif;
-color: #BF8768;
-text-align: center;
+.home_desc_img {
+    float: left;
 }
 
-header1 {
-font-size: 2.25em;
-font-family: 'IBM Plex Sans', sans-serif;
-color: #BF8768;
-text-align: center;
+#shadow_man {
+    border-radius: 20px;
+    width: 600px;
+    height: 600px;
 }
 
-main {
-font-size: 0.85em;
-font-family: 'IBM Plex Serif', serif;
-color: #504A40;
-    max-width: 75%;
+/* WHO WE ARE */
+/* -----------------------------*/
+.about_us {
+    padding-top: 20px;
+    padding-bottom: 450px;
+    background-color: #d7cdcc;
+    margin-top: 100px;
+    height: 520px;
+    overflow: hidden;
 }
 
-#informedConsent {
-width: 75%;
-margin: auto;
+.about_us h3, h4 {
+    font-family: CutiveMono;
+    color: #1d1e2c;
+    text-align: center;
+    font-size: 40px;
 }
 
-form {
-padding: 25px;
-padding-bottom: 35px;
-background-color: #CDBEAB;
-width: fit-content;
-margin: auto;
-position: relative;
+.about_us h4{
+    margin-top: 0;
 }
 
-input[type=button], input[type=submit], input[type=reset] {
-font-size: 1.25em;
-background-color: #BF8768;
-border: none;
-color: white;
-text-decoration: none;
-cursor: pointer;
-margin: 0;
-position: absolute;
-left: 45%;
+.about_us p{
+    line-height: 200%;
+    text-align: center;
+    margin-top: 0;
+    font-family: CutiveMono;
+    font-size: 18px;
+    color: #1d1e2c;
 }
 
-input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
-background-color: #D9D0BF;
-color: #504A40;
+.sreeram_about, .justin_about, .william_about {
+    height: 500px;
+    width: 33%;
+    float: left;
 }
 
-footer {
-font-size: 0.75em;
-position: absolute;
-bottom: 0;
-width: 100%;
-background-color: #CDBEAB;
-color: #241400;
-text-align: center;
+/* WHAT IS THIS ABOUT */
+/* -----------------------------*/
+.project_description {
+    margin-top: 70px;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
-footer p {
-width: 50%;
-margin: auto;
-padding-bottom: 0.5em;
+.project_description h3 {
+    font-family: CutiveMono;
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
 }
+
+.project_description p {
+    line-height: 200%;
+    font-family: CutiveMono;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Heros */
+/* -----------------------------*/
+.mcloud_about, .williams_about, dean_about {
+    height: 650px;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+/* Custom width required based on image size */
+.mcloud_image, .dean_image{
+    float: left;
+    width: 41.5%;
+}
+
+/* Custom width required based on image size */
+.williams_image, .dean_image {
+    float: left;
+    width: 29.5%;
+}
+
+.mcloud_text, .williams_text, .dean_text {
+    float: left;
+    width: 55.5%;
+}
+
+.mcloud_text h1, .williams_text h1, .dean_text h1{
+    font-family: CutiveMono;
+    color: #ffffff;
+    font-size: 40px;
+    padding-left: 10%;
+    margin-top: 0px;
+    width:inherit;
+}
+
+.mcloud_text p, .williams_text p, .dean_text p {
+    line-height: 200%;
+    font-family: CutiveMono;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 10%;
+    margin-top: 0px;
+    width:90%;
+}
+
+.mcloud_text a, .mcloud_text a:visited, .williams_text a, .williams_text a:visited, .dean_text a, .dean_text a:visited{
+    line-height: 200%;
+    font-family: CutiveMono;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 10%;
+    margin-top: 0px;
+    width:90%;
+}
+.mcloud_image img, .williams_image img {
+    height: 800px;
+    border-radius: 0px 0px 80px 0px;
+}
+.dean_image img {
+    height: 500px;
+    border-radius: 0px 0px 80px 0px;
+}
+
