@@ -80,18 +80,7 @@ body {
     font-weight: lighter;
 }
 
-.home_desc_img {
-    float: left;
-}
-
 .image-container{
-    float: left;
-}
-
-.image-container img{
-    border-radius: 20px;
-    width: 600px;
-    height: 600px;
     float: left;
 }
 
@@ -99,7 +88,6 @@ body {
     border-radius: 20px;
     width: 600px;
     height: 600px;
-    float: left;
 }
 
 /* WHO WE ARE */
