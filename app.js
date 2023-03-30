@@ -9,5 +9,6 @@ img.addEventListener('click', function(){
     images.src = 'images\\Unessay Layer 1.jpg';
   }else{
     images.src = 'images\\Unessay Layer 2.jpg';
-  }
+  }else{
+    images.src = 'images\\Unessay Layer 3.jpg';
 })
