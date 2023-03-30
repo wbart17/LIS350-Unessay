@@ -6,8 +6,8 @@ img.addEventListener('click', function(){
   
   toggle = !toggle;
   if(toggle){
-    img.src = 'img\\Unessay Layer 1.jpeg';
+    images.src = 'images\\Unessay Layer 1.jpg';
   }else{
-    img.src = 'img\\Unessay Layer 2.jpeg';
+    images.src = 'images\\Unessay Layer 2.jpg';
   }
 })
