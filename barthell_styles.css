@@ -1,0 +1,78 @@
+body {
+background-color: #D9D0BF;
+}
+
+#pageWrapper {
+position: relative;
+min-height: 100vh;
+    text-align: center;
+    max-width: 75%;
+}
+
+header {
+font-size: 1.25em;
+font-family: 'IBM Plex Sans', sans-serif;
+color: #BF8768;
+text-align: center;
+}
+
+header1 {
+font-size: 2.25em;
+font-family: 'IBM Plex Sans', sans-serif;
+color: #BF8768;
+text-align: center;
+}
+
+main {
+font-size: 0.85em;
+font-family: 'IBM Plex Serif', serif;
+color: #504A40;
+    max-width: 75%;
+}
+
+#informedConsent {
+width: 75%;
+margin: auto;
+}
+
+form {
+padding: 25px;
+padding-bottom: 35px;
+background-color: #CDBEAB;
+width: fit-content;
+margin: auto;
+position: relative;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+font-size: 1.25em;
+background-color: #BF8768;
+border: none;
+color: white;
+text-decoration: none;
+cursor: pointer;
+margin: 0;
+position: absolute;
+left: 45%;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+background-color: #D9D0BF;
+color: #504A40;
+}
+
+footer {
+font-size: 0.75em;
+position: absolute;
+bottom: 0;
+width: 100%;
+background-color: #CDBEAB;
+color: #241400;
+text-align: center;
+}
+
+footer p {
+width: 50%;
+margin: auto;
+padding-bottom: 0.5em;
+}
