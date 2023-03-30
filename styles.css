@@ -165,9 +165,14 @@ body {
 }
 
 /* Custom width required based on image size */
-.williams_image, .dean_image {
+.dean_image {
     float: left;
     width: 29.5%;
+}
+
+.williams_image {
+    float: left;
+    width: 19%;
 }
 
 .mcloud_text, .williams_text, .dean_text {
