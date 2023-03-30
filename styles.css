@@ -87,6 +87,7 @@ body {
 .image-container{
     width: 580px;
     height: 790px;
+    float: left;
 }
 
 .image-container img{
