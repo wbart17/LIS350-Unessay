@@ -208,10 +208,16 @@ body {
     margin-top: 0px;
     width:90%;
 }
-.mcloud_image img, .williams_image img {
+.mcloud_image img {
     height: 800px;
     border-radius: 0px 0px 80px 0px;
 }
+
+.williams_image img {
+    width: 200px;
+    border-radius: 0px 0px 80px 0px;
+}
+
 .dean_image img {
     height: 500px;
     border-radius: 0px 0px 80px 0px;
